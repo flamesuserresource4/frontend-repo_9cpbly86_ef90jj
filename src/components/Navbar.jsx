@@ -8,12 +8,12 @@ export default function Navbar() {
         <div className="mt-4 rounded-2xl border border-white/10 bg-slate-900/60 backdrop-blur-md">
           <div className="flex items-center justify-between px-4 py-3 sm:px-6">
             <a href="#home" className="flex items-center gap-2">
-              <div className="relative flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-fuchsia-500 via-purple-500 to-blue-500 shadow-lg">
+              <div className="relative flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-400 via-blue-500 to-indigo-500 shadow-lg">
                 <Sparkles className="h-5 w-5 text-white" />
-                <span className="absolute -inset-0.5 -z-10 rounded-2xl bg-gradient-to-br from-fuchsia-500/20 via-purple-500/20 to-blue-500/20 blur-md" />
+                <span className="absolute -inset-0.5 -z-10 rounded-2xl bg-gradient-to-br from-cyan-400/20 via-blue-500/20 to-indigo-500/20 blur-md" />
               </div>
               <div className="font-semibold tracking-tight text-white">
-                Pulse Automations
+                NovaFlow Automation
               </div>
             </a>
 

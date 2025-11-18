@@ -15,7 +15,7 @@ function App() {
       <UseCases />
       <CTA />
       <footer className="py-10 text-center text-sm text-slate-400 border-t border-white/5">
-        © {new Date().getFullYear()} Pulse Automations — AI systems for operations & marketing
+        © {new Date().getFullYear()} NovaFlow Automation — AI systems for operations & marketing
       </footer>
     </div>
   );

@@ -15,11 +15,16 @@ export default function Hero() {
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center py-20">
           <div className="lg:col-span-7">
+            <motion.span initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-white/80 backdrop-blur">
+              <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
+              Proven AI + automation systems for modern teams
+            </motion.span>
+
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white"
+              className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white"
             >
               Automate the busywork. Scale what matters.
             </motion.h1>
@@ -29,7 +34,7 @@ export default function Hero() {
               transition={{ duration: 0.7, delay: 0.1 }}
               className="mt-6 text-lg sm:text-xl text-slate-300 max-w-2xl"
             >
-              We design AI-driven automations for operations and growth marketing. From lead capture to fulfillment, your workflows run on autopilot while your team focuses on high‑leverage work.
+              NovaFlow builds AI-driven automations for operations and growth marketing. From lead capture to fulfillment, your workflows run on autopilot while your team focuses on high‑leverage work.
             </motion.p>
 
             <motion.div
