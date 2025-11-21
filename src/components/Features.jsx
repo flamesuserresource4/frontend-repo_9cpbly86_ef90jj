@@ -1,4 +1,4 @@
-import { Zap, Workflow, Bot, ChartLine, Shield, Megaphone } from "lucide-react";
+import { Zap, Bot, LineChart, Shield, Megaphone, Settings2 } from "lucide-react";
 
 const features = [
   {
@@ -17,12 +17,12 @@ const features = [
     desc: "Lead capture, enrichment, outreach, and follow-ups that scale with your goals.",
   },
   {
-    icon: ChartLine,
+    icon: LineChart,
     title: "Analytics & Insights",
     desc: "Dashboards and alerts to monitor impact and continuously improve performance.",
   },
   {
-    icon: Workflow,
+    icon: Settings2,
     title: "Systems Design",
     desc: "Blueprints for reliable, scalable, and secure automation architecture.",
   },
